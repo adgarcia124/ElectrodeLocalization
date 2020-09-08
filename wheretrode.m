@@ -58,4 +58,5 @@ end
 if nargout>2
     epos=trodestart+norms.*repmat(trodedist(:),1,3);
 end
+warning('This warning is useless so aaron can learn git');
 end
